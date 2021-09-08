@@ -28,3 +28,4 @@ def test_vector_scalar_multiplication():
     vector = Vector(3, 4)
     assert vector * 3 == Vector(9, 12)
     assert abs(vector * 3) == 15
+
